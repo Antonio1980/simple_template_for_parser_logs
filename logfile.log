@@ -1,0 +1,222 @@
+2018-11-06 16:52:01.782| on thread[140447603222272 c0]| IP[192.168.0.244:5000]| master| 192.168.0.244| omer| (stmt : 0) | sqream|  Connection id - 0
+2018-11-06 16:52:01.782| on thread[140447603222272 c0]| IP[192.168.0.244:5000]| master| 192.168.0.244| omer| (stmt : 0) | sqream|  Start Time - 2018-11-06 16:52:01
+2018-11-06 16:52:01.782| on thread[140447603222272 c0]| IP[192.168.0.244:5000]| master| 192.168.0.244| omer| (stmt : 0) | sqream|  Statement create or replace table amit (x date);
+2018-11-06 16:52:01.817| on thread[140447603222272 c0s0]| IP[192.168.0.244:5000]| master| 192.168.0.244| omer| (stmt : 0)| sqream|  Connection id - 0 - Executing - create or replace table amit (x date);
+2018-11-06 16:52:01.901| on thread[140447603222272 c0s0]| IP[192.168.0.244:5000]| master| 192.168.0.244| omer| (stmt : 0) | sqream|  Connection id - 0
+2018-11-06 16:52:01.901| on thread[140447603222272 c0s0]| IP[192.168.0.244:5000]| master| 192.168.0.244| omer| (stmt : 0) | sqream|  End Time - 2018-11-06 16:52:01
+2018-11-06 16:52:01.901| on thread[140447603222272 c0s0]| IP[192.168.0.244:5000]| master| 192.168.0.244| omer| (stmt : 0) | sqream|  SQL - create or replace table amit (x date);
+2018-11-06 16:52:01.901| on thread[140447603222272 c0s0]| IP[192.168.0.244:5000]| master| 192.168.0.244| omer| (stmt : 0) | sqream|  Success
+2018-11-06 16:52:14.917| on thread[140447603222272 c0s0]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 1) | sqream|  Connection id - 0
+2018-11-06 16:52:14.917| on thread[140447603222272 c0s0]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 1) | sqream|  Start Time - 2018-11-06 16:52:14
+2018-11-06 16:52:14.918| on thread[140447603222272 c0s0]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 1) | sqream|  Statement create or replace table amit (x int, y int);
+2018-11-06 16:52:14.925| on thread[140447603222272 c0s1]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 1)| sqream|  Connection id - 0 - Executing - create or replace table amit (x int, y int);
+2018-11-06 16:52:15.160| on thread[140447603222272 c0s1]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 1) | sqream|  Connection id - 0
+2018-11-06 16:52:15.160| on thread[140447603222272 c0s1]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 1) | sqream|  End Time - 2018-11-06 16:52:15
+2018-11-06 16:52:15.160| on thread[140447603222272 c0s1]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 1) | sqream|  SQL - create or replace table amit (x int, y int);
+2018-11-06 16:52:15.160| on thread[140447603222272 c0s1]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 1) | sqream|  Success
+2018-11-06 16:52:19.111| on thread[140447603222272 c0s1]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 2) | sqream|  Connection id - 0
+2018-11-06 16:52:19.111| on thread[140447603222272 c0s1]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 2) | sqream|  Start Time - 2018-11-06 16:52:19
+2018-11-06 16:52:19.112| on thread[140447603222272 c0s1]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 2) | sqream|  Statement create table amit (x int, y int);
+2018-11-06 16:52:19.118| on thread[140447603222272 c0s1]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 2) | sqream|  Connection id - 0
+2018-11-06 16:52:19.118| on thread[140447603222272 c0s1]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 2) | sqream|  End Time - 2018-11-06 16:52:19
+2018-11-06 16:52:19.118| on thread[140447603222272 c0s1]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 2) | sqream|  SQL - Can't create table 'public.amit' - a table with the same name already exists
+2018-11-06 16:52:19.118| on thread[140447603222272 c0s1]| IP[192.168.0.244:5001]| master| 192.168.0.244| sqream| (stmt : 2) | sqream|  Failed
+2018-11-06 16:52:27.223| on thread[140447603222272 c0s1]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 3) | sqream|  Connection id - 0
+2018-11-06 16:52:27.223| on thread[140447603222272 c0s1]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 3) | sqream|  Start Time - 2018-11-06 16:52:27
+2018-11-06 16:52:27.223| on thread[140447603222272 c0s1]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 3) | sqream|  Statement insert into amit values (1,1);
+2018-11-06 16:52:27.312| on thread[140447603222272 c0s3]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 3)| sqream|  Connection id - 0 - Executing - insert into amit values (1,1);
+2018-11-06 16:52:27.351| on thread[140447603222272 c0s3]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 3) | sqream|  Connection id - 0
+2018-11-06 16:52:27.351| on thread[140447603222272 c0s3]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 3) | sqream|  End Time - 2018-11-06 16:52:27
+2018-11-06 16:52:27.351| on thread[140447603222272 c0s3]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 3) | sqream|  SQL - insert into amit values (1,1);
+2018-11-06 16:52:27.351| on thread[140447603222272 c0s3]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 3) | sqream|  ResultSet Num Of Rows - 4
+2018-11-06 16:52:27.351| on thread[140447603222272 c0s3]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 3) | sqream|  Processed Num Of Rows - 11
+2018-11-06 16:52:27.351| on thread[140447603222272 c0s3]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 3) | sqream|  Success
+2018-11-06 16:52:28.71| on thread[140447603222272 c0s3]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 5) | sqream|  Connection id - 0
+2018-11-06 16:52:28.71| on thread[140447603222272 c0s3]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 5) | sqream|  Start Time - 2018-11-06 16:52:28
+2018-11-06 16:52:28.71| on thread[140447603222272 c0s3]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 5) | sqream|  Statement insert into amit values (1,1);
+2018-11-06 16:52:28.118| on thread[140447603222272 c0s5]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 5)| sqream|  Connection id - 0 - Executing - insert into amit values (1,1);
+2018-11-06 16:52:28.159| on thread[140447603222272 c0s5]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 5) | sqream|  Connection id - 0
+2018-11-06 16:52:28.159| on thread[140447603222272 c0s5]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 5) | sqream|  End Time - 2018-11-06 16:52:28
+2018-11-06 16:52:28.159| on thread[140447603222272 c0s5]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 5) | sqream|  SQL - insert into amit values (1,1);
+2018-11-06 16:52:28.159| on thread[140447603222272 c0s5]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 5) | sqream|  ResultSet Num Of Rows - 4
+2018-11-06 16:52:28.159| on thread[140447603222272 c0s5]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 5) | sqream|  Processed Num Of Rows - 11
+2018-11-06 16:52:28.159| on thread[140447603222272 c0s5]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 5) | sqream|  Success
+2018-11-06 16:52:30.407| on thread[140447603222272 c0s5]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 7) | sqream|  Connection id - 0
+2018-11-06 16:52:30.407| on thread[140447603222272 c0s5]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 7) | sqream|  Start Time - 2018-11-06 16:52:30
+2018-11-06 16:52:30.407| on thread[140447603222272 c0s5]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 7) | sqream|  Statement insert into amit values (1,111111);
+2018-11-06 16:52:30.452| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 7)| sqream|  Connection id - 0 - Executing - insert into amit values (1,111111);
+2018-11-06 16:52:30.484| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 7) | sqream|  Connection id - 0
+2018-11-06 16:52:30.485| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 7) | sqream|  End Time - 2018-11-06 16:52:30
+2018-11-06 16:52:30.485| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 7) | sqream|  SQL - insert into amit values (1,111111);
+2018-11-06 16:52:30.485| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 7) | sqream|  ResultSet Num Of Rows - 4
+2018-11-06 16:52:30.485| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 7) | sqream|  Processed Num Of Rows - 11
+2018-11-06 16:52:30.485| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 7) | sqream|  Success
+2018-11-06 16:52:33.239| on thread[140447603222272 c0s7]| IP[192.168.0.244:5002]| master| 192.168.0.244| sqream| (stmt : 9) | sqream|  Connection id - 0
+2018-11-06 16:52:33.239| on thread[140447603222272 c0s7]| IP[192.168.0.244:5002]| master| 192.168.0.244| sqream| (stmt : 9) | sqream|  Start Time - 2018-11-06 16:52:33
+2018-11-06 16:52:33.239| on thread[140447603222272 c0s7]| IP[192.168.0.244:5002]| master| 192.168.0.244| sqream| (stmt : 9) | sqream|  Statement insert into amit values (1,1111111111111111111111111111);
+2018-11-06 16:52:33.282| on thread[140447603222272 c0s7]| IP[192.168.0.244:5002]| master| 192.168.0.244| sqream| (stmt : 9) | sqream|  Connection id - 0
+2018-11-06 16:52:33.282| on thread[140447603222272 c0s7]| IP[192.168.0.244:5002]| master| 192.168.0.244| sqream| (stmt : 9) | sqream|  End Time - 2018-11-06 16:52:33
+2018-11-06 16:52:33.282| on thread[140447603222272 c0s7]| IP[192.168.0.244:5002]| master| 192.168.0.244| sqream| (stmt : 9) | sqream|  SQL - '1111111111111111049520087040' is not a valid literal of type Int Integer '497554162897125376' is out of bounds for type Int
+2018-11-06 16:52:33.282| on thread[140447603222272 c0s7]| IP[192.168.0.244:5002]| master| 192.168.0.244| sqream| (stmt : 9) | sqream|  Failed
+2018-11-06 16:52:38.711| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 10) | sqream|  Connection id - 0
+2018-11-06 16:52:38.711| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 10) | sqream|  Start Time - 2018-11-06 16:52:38
+2018-11-06 16:52:38.711| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 10) | sqream|  Statement insert into amit values (1,'fff');
+2018-11-06 16:52:38.761| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 10) | sqream|  Connection id - 0
+2018-11-06 16:52:38.761| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 10) | sqream|  End Time - 2018-11-06 16:52:38
+2018-11-06 16:52:38.761| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 10) | sqream|  SQL - 'fff' is not a valid literal of type Int fff is not a valid integer
+2018-11-06 16:52:38.761| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 10) | sqream|  Failed
+2018-11-06 16:52:54.103| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| Gilc| (stmt : 11) | sqream|  Connection id - 0
+2018-11-06 16:52:54.103| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| Gilc| (stmt : 11) | sqream|  Start Time - 2018-11-06 16:52:54
+2018-11-06 16:52:54.103| on thread[140447603222272 c0s7]| IP[192.168.0.244:5000]| master| 192.168.0.244| Gilc| (stmt : 11) | sqream|  Statement delete from amit where y = 111111;
+2018-11-06 16:52:54.178| on thread[140447603222272 c0s11]| IP[192.168.0.244:5000]| master| 192.168.0.244| Gilc| (stmt : 11)| sqream|  Connection id - 0 - Executing - delete from amit where y = 111111;
+2018-11-06 16:52:54.217| on thread[140447603222272 c0s11]| IP[192.168.0.244:5000]| master| 192.168.0.244| Gilc| (stmt : 11) | sqream|  Connection id - 0
+2018-11-06 16:52:54.217| on thread[140447603222272 c0s11]| IP[192.168.0.244:5000]| master| 192.168.0.244| Gilc| (stmt : 11) | sqream|  End Time - 2018-11-06 16:52:54
+2018-11-06 16:52:54.217| on thread[140447603222272 c0s11]| IP[192.168.0.244:5000]| master| 192.168.0.244| Gilc| (stmt : 11) | sqream|  SQL - delete from amit where y = 111111;
+2018-11-06 16:52:54.217| on thread[140447603222272 c0s11]| IP[192.168.0.244:5000]| master| 192.168.0.244| Gilc| (stmt : 11) | sqream|  Success
+2018-11-06 16:53:04.534| on thread[140447603222272 c10]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 12) | sqream|  Connection id - 10
+2018-11-06 16:53:04.535| on thread[140447603222272 c10]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 12) | sqream|  Start Time - 2018-11-06 16:53:04
+2018-11-06 16:53:04.535| on thread[140447603222272 c10]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 12) | sqream|  Statement copy amit from '/home/amitn/csv.csv';
+2018-11-06 16:53:04.551| on thread[140447603222272 c10s12]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 12)| sqream|  Connection id - 10 - Executing - copy amit from '/home/amitn/csv.csv';
+2018-11-06 16:53:04.551| on thread[140447603222272 c10s12]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 12)| sqream|  Connection id - 10 - 0MB - copy amit from '/home/amitn/csv.csv';
+2018-11-06 16:53:04.600| on thread[140447603222272 c10s12]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 12) | sqream|  Connection id - 10
+2018-11-06 16:53:04.600| on thread[140447603222272 c10s12]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 12) | sqream|  End Time - 2018-11-06 16:53:04
+2018-11-06 16:53:04.600| on thread[140447603222272 c10s12]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 12) | sqream|  SQL - copy amit from '/home/amitn/csv.csv';
+2018-11-06 16:53:04.600| on thread[140447603222272 c10s12]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 12) | sqream|  ResultSet Num Of Rows - 12
+2018-11-06 16:53:04.600| on thread[140447603222272 c10s12]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 12) | sqream|  Processed Num Of Rows - 38
+2018-11-06 16:53:04.600| on thread[140447603222272 c10s12]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 12) | sqream|  Success
+2018-11-06 16:53:05.527| on thread[140447603222272 c10s12]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 13) | sqream|  Connection id - 10
+2018-11-06 16:53:05.527| on thread[140447603222272 c10s12]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 13) | sqream|  Start Time - 2018-11-06 16:53:05
+2018-11-06 16:53:05.527| on thread[140447603222272 c10s12]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 13) | sqream|  Statement copy amit from '/home/amitn/csv.csv';
+2018-11-06 16:53:05.543| on thread[140447603222272 c10s13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 13)| sqream|  Connection id - 10 - Executing - copy amit from '/home/amitn/csv.csv';
+2018-11-06 16:53:05.543| on thread[140447603222272 c10s13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 13)| sqream| Connection id - 10 -0MB - copy amit from '/home/amitn/csv.csv';
+2018-11-06 16:53:05.617| on thread[140447603222272 c10s13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 13) | sqream|  Connection id - 10
+2018-11-06 16:53:05.617| on thread[140447603222272 c10s13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 13) | sqream|  End Time - 2018-11-06 16:53:05
+2018-11-06 16:53:05.617| on thread[140447603222272 c10s13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 13) | sqream|  SQL - copy amit from '/home/amitn/csv.csv';
+2018-11-06 16:53:05.617| on thread[140447603222272 c10s13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 13) | sqream|  ResultSet Num Of Rows - 12
+2018-11-06 16:53:05.617| on thread[140447603222272 c10s13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 13) | sqream|  Processed Num Of Rows - 38
+2018-11-06 16:53:05.617| on thread[140447603222272 c10s13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 13) | sqream|  Success
+2018-11-06 16:53:18.711| on thread[140447603222272 c10s13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 14) | sqream|  Connection id - 10
+2018-11-06 16:53:18.711| on thread[140447603222272 c10s13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 14) | sqream|  Start Time - 2018-11-06 16:53:18
+2018-11-06 16:53:18.711| on thread[140447603222272 c10s13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 14) | sqream|  Statement select * from amit;
+2018-11-06 16:53:18.809| on thread[140447603222272 c10s14]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 14)| sqream|  Connection id - 10 - Executing - select * from amit;
+2018-11-06 16:53:18.958| on thread[140447603222272 c10s14]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 14) | sqream|  Connection id - 10
+2018-11-06 16:53:18.958| on thread[140447603222272 c10s14]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 14) | sqream|  End Time - 2018-11-06 16:53:18
+2018-11-06 16:53:18.958| on thread[140447603222272 c10s14]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 14) | sqream|  SQL - select * from amit;
+2018-11-06 16:53:18.958| on thread[140447603222272 c10s14]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 14) | sqream|  ResultSet Num Of Rows - 8
+2018-11-06 16:53:18.958| on thread[140447603222272 c10s14]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 14) | sqream|  Processed Num Of Rows - 120
+2018-11-06 16:53:18.958| on thread[140447603222272 c10s14]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 14) | sqream|  Success
+2018-11-06 16:53:25.925| on thread[140447603222272 c10s14]| IP[192.168.0.244:5000]| master| 192.168.0.244| Guy| (stmt : 15) | sqream|  Connection id - 10
+2018-11-06 16:53:25.925| on thread[140447603222272 c10s14]| IP[192.168.0.244:5000]| master| 192.168.0.244| Guy| (stmt : 15) | sqream|  Start Time - 2018-11-06 16:53:25
+2018-11-06 16:53:25.925| on thread[140447603222272 c10s14]| IP[192.168.0.244:5000]| master| 192.168.0.244| Guy| (stmt : 15) | sqream|  Statement select 1;
+2018-11-06 16:53:25.954| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| Guy| (stmt : 15)| sqream|  Connection id - 10 - Executing - select 1;
+2018-11-06 16:53:26.25| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| Guy| (stmt : 15) | sqream|  Connection id - 10
+2018-11-06 16:53:26.25| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| Guy| (stmt : 15) | sqream|  End Time - 2018-11-06 16:53:26
+2018-11-06 16:53:26.25| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| Guy| (stmt : 15) | sqream|  SQL - select 1;
+2018-11-06 16:53:26.25| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| Guy| (stmt : 15) | sqream|  ResultSet Num Of Rows - 1
+2018-11-06 16:53:26.25| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| Guy| (stmt : 15) | sqream|  Processed Num Of Rows - 2
+2018-11-06 16:53:26.25| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| Guy| (stmt : 15) | sqream|  Success
+2018-11-06 16:53:32.246| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 16) | sqream|  Connection id - 10
+2018-11-06 16:53:32.247| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 16) | sqream|  Start Time - 2018-11-06 16:53:32
+2018-11-06 16:53:32.247| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 16) | sqream|  Statement select * from amit group by x;
+2018-11-06 16:53:32.321| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 16) | sqream|  Connection id - 10
+2018-11-06 16:53:32.321| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 16) | sqream|  End Time - 2018-11-06 16:53:32
+2018-11-06 16:53:32.321| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 16) | sqream|  SQL - identifier not found y
+2018-11-06 16:53:32.321| on thread[140447603222272 c10s15]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 16) | sqream|  Failed
+2018-11-06 16:53:36.630| on thread[140447603222272 c10s15]| IP[192.168.0.244:5005]| master| 192.168.0.244| sqream| (stmt : 17) | sqream|  Connection id - 10
+2018-11-06 16:53:36.630| on thread[140447603222272 c10s15]| IP[192.168.0.244:5005]| master| 192.168.0.244| sqream| (stmt : 17) | sqream|  Start Time - 2018-11-06 16:53:36
+2018-11-06 16:53:36.630| on thread[140447603222272 c10s15]| IP[192.168.0.244:5005]| master| 192.168.0.244| sqream| (stmt : 17) | sqream|  Statement select count(y), x from amit group by x;
+2018-11-06 16:53:36.751| on thread[140447603222272 c10s17]| IP[192.168.0.244:5005]| master| 192.168.0.244| sqream| (stmt : 17)| sqream|  Connection id - 10 - Executing - select count(y), x from amit group by x;
+2018-11-06 16:53:36.816| on thread[140447603222272 c10s17]| IP[192.168.0.244:5005]| master| 192.168.0.244| sqream| (stmt : 17) | sqream|  Connection id - 10
+2018-11-06 16:53:36.816| on thread[140447603222272 c10s17]| IP[192.168.0.244:5005]| master| 192.168.0.244| sqream| (stmt : 17) | sqream|  End Time - 2018-11-06 16:53:36
+2018-11-06 16:53:36.816| on thread[140447603222272 c10s17]| IP[192.168.0.244:5005]| master| 192.168.0.244| sqream| (stmt : 17) | sqream|  SQL - select count(y), x from amit group by x;
+2018-11-06 16:53:36.816| on thread[140447603222272 c10s17]| IP[192.168.0.244:5005]| master| 192.168.0.244| sqream| (stmt : 17) | sqream|  ResultSet Num Of Rows - 3
+2018-11-06 16:53:36.816| on thread[140447603222272 c10s17]| IP[192.168.0.244:5005]| master| 192.168.0.244| sqream| (stmt : 17) | sqream|  Processed Num Of Rows - 90
+2018-11-06 16:53:36.816| on thread[140447603222272 c10s17]| IP[192.168.0.244:5005]| master| 192.168.0.244| sqream| (stmt : 17) | sqream|  Success
+2018-11-06 16:53:40.998| on thread[140447603222272 c13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 18) | sqream|  Connection id - 13
+2018-11-06 16:53:40.998| on thread[140447603222272 c13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 18) | sqream|  Start Time - 2018-11-06 16:53:40
+2018-11-06 16:53:40.998| on thread[140447603222272 c13]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 18) | sqream|  Statement create table tati (a varchar(10), b int);
+2018-11-06 16:53:41.5| on thread[140447603222272 c13s18]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 18)| sqream|  Connection id - 13 - Executing - create table tati (a varchar(10), b int);
+2018-11-06 16:53:41.116| on thread[140447603222272 c13s18]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 18) | sqream|  Connection id - 13
+2018-11-06 16:53:41.116| on thread[140447603222272 c13s18]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 18) | sqream|  End Time - 2018-11-06 16:53:41
+2018-11-06 16:53:41.116| on thread[140447603222272 c13s18]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 18) | sqream|  SQL - create table tati (a varchar(10), b int);
+2018-11-06 16:53:41.116| on thread[140447603222272 c13s18]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 18) | sqream|  Success
+2018-11-06 16:53:51.398| on thread[140447603222272 c13s18]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 19) | sqream|  Connection id - 13
+2018-11-06 16:53:51.398| on thread[140447603222272 c13s18]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 19) | sqream|  Start Time - 2018-11-06 16:53:51
+2018-11-06 16:53:51.398| on thread[140447603222272 c13s18]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 19) | sqream|  Statement insert into tati values (1,1);
+2018-11-06 16:53:51.447| on thread[140447603222272 c13s19]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 19)| sqream|  Connection id - 13 - Executing - insert into tati values (1,1);
+2018-11-06 16:53:51.517| on thread[140447603222272 c13s19]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 19) | sqream|  Connection id - 13
+2018-11-06 16:53:51.517| on thread[140447603222272 c13s19]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 19) | sqream|  End Time - 2018-11-06 16:53:51
+2018-11-06 16:53:51.517| on thread[140447603222272 c13s19]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 19) | sqream|  SQL - insert into tati values (1,1);
+2018-11-06 16:53:51.517| on thread[140447603222272 c13s19]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 19) | sqream|  ResultSet Num Of Rows - 4
+2018-11-06 16:53:51.517| on thread[140447603222272 c13s19]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 19) | sqream|  Processed Num Of Rows - 11
+2018-11-06 16:53:51.517| on thread[140447603222272 c13s19]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 19) | sqream|  Success
+2018-11-06 16:53:55.398| on thread[140447603222272 c13s19]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 21) | sqream|  Connection id - 13
+2018-11-06 16:53:55.398| on thread[140447603222272 c13s19]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 21) | sqream|  Start Time - 2018-11-06 16:53:55
+2018-11-06 16:53:55.398| on thread[140447603222272 c13s19]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 21) | sqream|  Statement insert into tati values ('1','1');
+2018-11-06 16:53:55.445| on thread[140447603222272 c13s21]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 21)| sqream|  Connection id - 13 - Executing - insert into tati values ('1','1');
+2018-11-06 16:53:55.500| on thread[140447603222272 c13s21]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 21) | sqream|  Connection id - 13
+2018-11-06 16:53:55.500| on thread[140447603222272 c13s21]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 21) | sqream|  End Time - 2018-11-06 16:53:55
+2018-11-06 16:53:55.500| on thread[140447603222272 c13s21]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 21) | sqream|  SQL - insert into tati values ('1','1');
+2018-11-06 16:53:55.500| on thread[140447603222272 c13s21]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 21) | sqream|  ResultSet Num Of Rows - 4
+2018-11-06 16:53:55.500| on thread[140447603222272 c13s21]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 21) | sqream|  Processed Num Of Rows - 11
+2018-11-06 16:53:55.500| on thread[140447603222272 c13s21]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 21) | sqream|  Success
+2018-11-06 16:53:56.246| on thread[140447603222272 c13s21]| IP[192.168.0.244:5000]| master_backup| 192.168.0.244| sqream| (stmt : 23) | sqream|  Connection id - 13
+2018-11-06 16:53:56.246| on thread[140447603222272 c13s21]| IP[192.168.0.244:5000]| master_backup| 192.168.0.244| sqream| (stmt : 23) | sqream|  Start Time - 2018-11-06 16:53:56
+2018-11-06 16:53:56.246| on thread[140447603222272 c13s21]| IP[192.168.0.244:5000]| master_backup| 192.168.0.244| sqream| (stmt : 23) | sqream|  Statement insert into tati values ('1','1');
+2018-11-06 16:53:56.293| on thread[140447603222272 c13s23]| IP[192.168.0.244:5000]| master_backup| 192.168.0.244| sqream| (stmt : 23)| sqream|  Connection id - 13 - Executing - insert into tati values ('1','1');
+2018-11-06 16:53:56.333| on thread[140447603222272 c13s23]| IP[192.168.0.244:5000]| master_backup| 192.168.0.244| sqream| (stmt : 23) | sqream|  Connection id - 13
+2018-11-06 16:53:56.333| on thread[140447603222272 c13s23]| IP[192.168.0.244:5000]| master_backup| 192.168.0.244| sqream| (stmt : 23) | sqream|  End Time - 2018-11-06 16:53:56
+2018-11-06 16:53:56.333| on thread[140447603222272 c13s23]| IP[192.168.0.244:5000]| master_backup| 192.168.0.244| sqream| (stmt : 23) | sqream|  SQL - insert into tati values ('1','1');
+2018-11-06 16:53:56.333| on thread[140447603222272 c13s23]| IP[192.168.0.244:5000]| master_backup| 192.168.0.244| sqream| (stmt : 23) | sqream|  ResultSet Num Of Rows - 4
+2018-11-06 16:53:56.333| on thread[140447603222272 c13s23]| IP[192.168.0.244:5000]| master_backup| 192.168.0.244| sqream| (stmt : 23) | sqream|  Processed Num Of Rows - 11
+2018-11-06 16:53:56.333| on thread[140447603222272 c13s23]| IP[192.168.0.244:5000]| master_backup| 192.168.0.244| sqream| (stmt : 23) | sqream|  Success
+2018-11-06 16:54:03.526| on thread[140447603222272 c13s23]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 25) | sqream|  Connection id - 13
+2018-11-06 16:54:03.526| on thread[140447603222272 c13s23]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 25) | sqream|  Start Time - 2018-11-06 16:54:03
+2018-11-06 16:54:03.526| on thread[140447603222272 c13s23]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 25) | sqream|  Statement select x from amit join tati on x = a;
+2018-11-06 16:54:03.686| on thread[140447603222272 c13s25]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 25)| sqream|  Connection id - 13 - Executing - select x from amit join tati on x = a;
+2018-11-06 16:54:03.758| on thread[140447603222272 c13s25]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 25) | sqream|  Connection id - 13
+2018-11-06 16:54:03.758| on thread[140447603222272 c13s25]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 25) | sqream|  End Time - 2018-11-06 16:54:03
+2018-11-06 16:54:03.758| on thread[140447603222272 c13s25]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 25) | sqream|  SQL - select x from amit join tati on x = a;
+2018-11-06 16:54:03.758| on thread[140447603222272 c13s25]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 25) | sqream|  ResultSet Num Of Rows - 12
+2018-11-06 16:54:03.758| on thread[140447603222272 c13s25]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 25) | sqream|  Processed Num Of Rows - 162
+2018-11-06 16:54:03.758| on thread[140447603222272 c13s25]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 25) | sqream|  Success
+2018-11-06 16:54:07.622| on thread[140447603222272 c13s25]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 26) | sqream|  Connection id - 13
+2018-11-06 16:54:07.622| on thread[140447603222272 c13s25]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 26) | sqream|  Start Time - 2018-11-06 16:54:07
+2018-11-06 16:54:07.622| on thread[140447603222272 c13s25]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 26) | sqream|  Statement select * from amit join tati on x = a;
+2018-11-06 16:54:07.817| on thread[140447603222272 c13s26]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 26)| sqream|  Connection id - 13 - Executing - select * from amit join tati on x = a;
+2018-11-06 16:54:07.891| on thread[140447603222272 c13s26]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 26) | sqream|  Connection id - 13
+2018-11-06 16:54:07.891| on thread[140447603222272 c13s26]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 26) | sqream|  End Time - 2018-11-06 16:54:07
+2018-11-06 16:54:07.891| on thread[140447603222272 c13s26]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 26) | sqream|  SQL - select * from amit join tati on x = a;
+2018-11-06 16:54:07.891| on thread[140447603222272 c13s26]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 26) | sqream|  ResultSet Num Of Rows - 12
+2018-11-06 16:54:07.891| on thread[140447603222272 c13s26]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 26) | sqream|  Processed Num Of Rows - 210
+2018-11-06 16:54:07.891| on thread[140447603222272 c13s26]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 26) | sqream|  Success
+2018-11-06 16:54:21.957| on thread[140447603222272 c20]| IP[192.168.0.244:5000]| master| 192.168.0.244| ben| (stmt : 27) | sqream|  Connection id - 20
+2018-11-06 16:54:21.957| on thread[140447603222272 c20]| IP[192.168.0.244:5000]| master| 192.168.0.244| ben| (stmt : 27) | sqream|  Start Time - 2018-11-06 16:54:21
+2018-11-06 16:54:21.957| on thread[140447603222272 c20]| IP[192.168.0.244:5000]| master| 192.168.0.244| ben| (stmt : 27) | sqream|  Statement drop table tati;
+2018-11-06 16:54:21.960| on thread[140447603222272 c20s27]| IP[192.168.0.244:5000]| master| 192.168.0.244| ben| (stmt : 27)| sqream|  Connection id - 20 - Executing - drop table tati;
+2018-11-06 16:54:22.66| on thread[140447603222272 c20s27]| IP[192.168.0.244:5000]| master| 192.168.0.244| ben| (stmt : 27) | sqream|  Connection id - 20
+2018-11-06 16:54:22.66| on thread[140447603222272 c20s27]| IP[192.168.0.244:5000]| master| 192.168.0.244| ben| (stmt : 27) | sqream|  End Time - 2018-11-06 16:54:22
+2018-11-06 16:54:22.66| on thread[140447603222272 c20s27]| IP[192.168.0.244:5000]| master| 192.168.0.244| ben| (stmt : 27) | sqream|  SQL - drop table tati;
+2018-11-06 16:54:22.66| on thread[140447603222272 c20s27]| IP[192.168.0.244:5000]| master| 192.168.0.244| ben| (stmt : 27) | sqream|  Success
+2018-11-06 16:54:27.733| on thread[140447603222272 c20s27]| IP[192.168.0.216:5000]| master_tati| 192.168.0.244| sqream| (stmt : 28) | sqream|  Connection id - 20
+2018-11-06 16:54:27.733| on thread[140447603222272 c20s27]| IP[192.168.0.216:5000]| master_tati| 192.168.0.244| sqream| (stmt : 28) | sqream|  Start Time - 2018-11-06 16:54:27
+2018-11-06 16:54:27.733| on thread[140447603222272 c20s27]| IP[192.168.0.216:5000]| master_tati| 192.168.0.244| sqream| (stmt : 28) | sqream|  Statement truncate table amit;
+2018-11-06 16:54:27.737| on thread[140447603222272 c20s28]| IP[192.168.0.216:5000]| master_tati| 192.168.0.244| sqream| (stmt : 28)| sqream|  Connection id - 20 - Executing - truncate table amit;
+2018-11-06 16:54:27.849| on thread[140447603222272 c20s28]| IP[192.168.0.216:5000]| master_tati| 192.168.0.244| sqream| (stmt : 28) | sqream|  Connection id - 20
+2018-11-06 16:54:27.849| on thread[140447603222272 c20s28]| IP[192.168.0.216:5000]| master_tati| 192.168.0.244| sqream| (stmt : 28) | sqream|  End Time - 2018-11-06 16:54:27
+2018-11-06 16:54:27.849| on thread[140447603222272 c20s28]| IP[192.168.0.216:5000]| master_tati| 192.168.0.244| sqream| (stmt : 28) | sqream|  SQL - truncate table amit;
+2018-11-06 16:54:27.849| on thread[140447603222272 c20s28]| IP[192.168.0.216:5000]| master_tati| 192.168.0.244| sqream| (stmt : 28) | sqream|  Success
+2018-11-06 16:54:36.406| on thread[140447603222272 c22]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 29) | sqream|  Connection id - 22
+2018-11-06 16:54:36.406| on thread[140447603222272 c22]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 29) | sqream|  Start Time - 2018-11-06 16:54:36
+2018-11-06 16:54:36.406| on thread[140447603222272 c22]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 29) | sqream|  Statement select 1;
+2018-11-06 16:54:36.462| on thread[140447603222272 c22s29]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 29)| sqream|  Connection id - 22 - Executing - select 1;
+2018-11-06 16:54:36.532| on thread[140447603222272 c22s29]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 29) | sqream|  Connection id - 22
+2018-11-06 16:54:36.533| on thread[140447603222272 c22s29]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 29) | sqream|  End Time - 2018-11-06 16:54:36
+2018-11-06 16:54:36.533| on thread[140447603222272 c22s29]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 29) | sqream|  SQL - select 1;
+2018-11-06 16:54:36.533| on thread[140447603222272 c22s29]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 29) | sqream|  ResultSet Num Of Rows - 1
+2018-11-06 16:54:36.533| on thread[140447603222272 c22s29]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 29) | sqream|  Processed Num Of Rows - 2
+2018-11-06 16:54:36.533| on thread[140447603222272 c22s29]| IP[192.168.0.244:5000]| master| 192.168.0.244| sqream| (stmt : 29) | sqream|  Success
+2018-11-06 16:54:43.350| on thread[140447603222272 c23]| IP[192.168.0.214:5000]| master| 192.168.0.244| sqream| (stmt : 30) | sqream|  Connection id - 23
+2018-11-06 16:54:43.350| on thread[140447603222272 c23]| IP[192.168.0.214:5000]| master| 192.168.0.244| sqream| (stmt : 30) | sqream|  Start Time - 2018-11-06 16:54:43
+2018-11-06 16:54:43.350| on thread[140447603222272 c23]| IP[192.168.0.214:5000]| master| 192.168.0.244| sqream| (stmt : 30) | sqream|  Statement select shutdown_server();
+2018-11-06 16:54:43.356| on thread[140447603222272 c23s30]| IP[192.168.0.214:5000]| master| 192.168.0.244| sqream| (stmt : 30)| sqream|  Connection id - 23 - Executing - select shutdown_server();

@@ -1,0 +1,61 @@
+{
+"compileFlags": {
+    "useVarcharZplitterRemoveIf": false,
+    "useVarcharZplitterSortVal": false,
+    "useVarcharZplitterSortKey": false,
+    "useVarcharZplitterJoinVal": false,
+    "useVarcharZplitterJoinKey": true,
+    "useVarcharZplitterReduceKey": true,
+    "useVarcharZplitterUnique": true,
+    "useCpuZtrings": true,
+    "useZecycleMemory": true,
+    "useMetadataAggregateZccel": true,
+    "useZortMergeJoin": false,
+    "useHaZhReduce": false,
+    "distinctAggregatesOnHost": false,
+    "useColumnarCpuReduce": false,
+    "distinctAggregatesOnHostNullDuplicates": false,
+    "useTwoPassesNullDuplicates": false,
+    "useGroupByPartitioning": false,
+    "reduceFactor": 1
+},
+"runtimeFlags": {
+    "useShortcutJoin": true,
+    "useMemorySpool": true,
+    "useFastGather": true,
+    "spoolerMemoryBuffers": 2,
+    "fileReaderBufferSizeKB": 64,
+    "readStorageBuffers": 2,
+    "smjSmallTableRows": 61000000,
+    "insertParsers": 1,
+    "insertCompressors": 4,
+    "cpuReduceHashtableSize": 10000
+},
+"runtimeGlobalFlags": {
+    "useMetadataServer": true,
+    "metadataServerIp1": 127,
+    "metadataServerIp2": 0,
+    "metadataServerIp3": 0,
+    "metadataServerIp4": 1,
+    "useConfigIP":true,
+    "machineIP1":127,
+    "machineIP2":0,
+    "machineIP3":0,
+    "machineIP4":1,
+    "spoolMemoryGB": 10,
+    "useClientLogFileSize": 1048576,
+    "showFullExceptionInfo": true,
+    "devopsMessages": true,
+    "useDevelopmentLog" : true,
+    "rechunkUse" : false,
+    "reextentUse": false,
+    "rechunkAutomatic" : false
+},
+"server":{
+    "gpu": 0,
+    "port": 5000,
+    "cluster": "/home/sqream/sqream/sqream_cluster/sqreamdb",
+    "licensePath" : "/home/test_user/.sqream/license.enc",
+    "ssl": false
+}
+}
